@@ -1,0 +1,163 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  color: #fff;
+  background-color: #c7a08c;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 130px;
+  background: #462615;
+}
+
+.logo{
+  color: #c7a08c;
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+.logo:hover{
+  color:#8ec1d4;
+  transition: .4s;
+}
+
+p{
+  display: flex;
+  color:#fff;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+p:hover{
+  color:#8ec1d4;
+  transition: .4s;
+}
+
+section{
+  padding: 70px 17%;
+}
+.home{
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+  align-items: center;
+}
+.home-img img{
+  max-width: 500%;
+  width: 300px;
+  height: auto;
+  margin-top: 4cm;
+  margin-left: 2cm;
+}
+
+.home-text h1{
+  font-size: 5rem;
+  color: #462615;
+}
+.home-text h2{
+  font-size: 2.25rem;
+  margin: 1rem 0 2rem;
+}
+.btn{
+  display: inline-block;
+  padding: 10px 20px;
+  background: #462615;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+.btn:hover{
+  transform:scale(1.0) translateY(8px);
+  color: #fff;
+  background-color: #000;
+  transition: .4s;
+}
+
+.heading{
+  text-align: center;
+}
+.heading span{
+  color: #462615;
+  font-weight: 600;
+}
+.heading h2{
+  font-size: 2.25rem;
+}
+
+.menu-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  grid-gap: 1.5rem;
+  align-items: center;
+}
+
+.box{
+  position: relative;
+  margin-top: 4rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f7e9c9;
+  padding: 20px;
+  border-radius: 1rem;
+}
+.box-img{
+  width: 220px;
+  height: 220px;
+}
+.box-img img{
+  width: 100%;
+  height: 100%;
+}
+.box-img img:hover{
+  transform: scale(1.1);
+  transition: .4s
+}
+.box h2{
+  margin-top: 0.5cm;
+  font-size: 1.3rem;
+  color: #3e4b3b;
+}
+.box h3{
+  font-size: 1rem;
+  color: #3e4b3b;
+  font-weight: 400;
+  margin: 4px 0 10px;
+}
+.box span{
+  font-size: 0.9rem;
+  color: #27431f;
+  font-weight: 600;
+}
+.box .bx{
+  background: #462615;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  font-size: 30px;
+  padding: 7px 10px;
+  border-radius: 0 0.5rem 0 0.5rem;
+}
+.box .bx:hover{
+  background: #fff;
+  color: #462615;
+  transition: .3s;
+}
